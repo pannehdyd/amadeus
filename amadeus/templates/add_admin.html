@@ -1,0 +1,10 @@
+{% extends "base_generic.html" %}
+{% block content %}
+  <h2>Add Admins</h2>
+  <form method="post">
+    {% csrf_token %}
+    <label for="usernames">Usernames (comma-separated):</label>
+    <input type="text" id="usernames" name="usernames" required>
+    <button type="submit">Add Admins</button>
+  </form>
+{% endblock %}

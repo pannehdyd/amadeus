@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}My Site{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>My Site</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="{% url 'add_admin' %}">Add Admins</a></li>
+            <li><a href="{% url 'remove_admin' %}">Remove Admins</a></li>
+            <!-- Other links -->
+        </ul>
+    </nav>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2024 My Site</p>
+    </footer>
+</body>
+</html>

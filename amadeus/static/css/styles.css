@@ -1,0 +1,31 @@
+/* main.css */
+
+/* Apply font-family to the entire body */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #364f68;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-item .nav-link {
+    color: #34347c;
+    font-weight: bold;
+}
+
+.container-fluid {
+    margin-top: 20px;
+}
+
+main {
+    padding: 20px;
+    background-color: #5940ac;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
