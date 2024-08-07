@@ -10,7 +10,7 @@ urlpatterns = [
     path('add-admin/', add_admin_view, name='add_admin'),
     path('remove-admin/', remove_admin_view, name='remove_admin'),
     path('dashboard/', dashboard_view, name='dashboard'),
-    # Other URLs
+
 ]
 
 
