@@ -9,8 +9,8 @@ urlpatterns = [
     path('register/', register_view, name='register'),
     path('add-admin/', add_admin_view, name='add_admin'),
     path('remove-admin/', remove_admin_view, name='remove_admin'),
-    path('logout/', auth_views.LogoutView.as_view(), name='logout'),
-    path('dashboard/', views.dashboard, name='dashboard'),
+    path('logout/', Logout_view, name='logout'),
+    path('dashboard/', dashboard_view, name='dashboard'),
     # Other URLs
 ]
 
