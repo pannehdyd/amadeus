@@ -82,11 +82,9 @@ def remove_admin_view(request):
                 messages.error(request, f'{username} does not exist.')
         return redirect('remove_admin')  # Redirect back to remove admin page
     return render(request, 'core/remove_admin.html')
-# views.py
-
-from django.shortcuts import render
 def dashboard(request):
     return render(request, 'dashboard.html')
+
 
 
 
